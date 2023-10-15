@@ -1,0 +1,54 @@
+    OpenRGB v0.9
+    Commit: 11a4eac71fdeb90356b4e68249723fc97af3d110 from 2023-07-10 05:52:54 -0500
+    Launched: 20231007_133529
+====================================================================================================
+
+0     |Info:    Found file: default.orp attempting to validate header
+0     |Info:    Valid v4 profile found for default
+0     |Info:    Found file: default365.orp attempting to validate header
+0     |Info:    Valid v4 profile found for default365
+0     |Info:    Found file: retro.orp attempting to validate header
+1     |Info:    Valid v4 profile found for retro
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    |             Detecting I2C interfaces               |
+1009  |Info:    ------------------------------------------------------
+1010  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:220A Subsystem: 1043:886B
+1010  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:220A Subsystem: 1043:886B
+1010  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1043:87C0
+1010  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:220A Subsystem: 1043:886B
+1010  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:220A Subsystem: 1043:886B
+1010  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:220A Subsystem: 1043:886B
+1010  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1010  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1043:87C0
+1010  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1043:87C0
+1010  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:220A Subsystem: 1043:886B
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |               Detecting I2C devices                |
+1010  |Info:    ------------------------------------------------------
+1950  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+1961  |Info:    [Corsair Dominator Platinum] Registering RGB controller
+2096  |Info:    ------------------------------------------------------
+2096  |Info:    |               Detecting I2C PCI devices            |
+2096  |Info:    ------------------------------------------------------
+2314  |Info:    [ASUS ROG STRIX RTX 3080 O12G] Registering RGB controller
+2439  |Info:    ------------------------------------------------------
+2439  |Info:    |               Detecting HID devices                |
+2439  |Info:    ------------------------------------------------------
+2516  |Info:    [ASUS ROG STRIX B550-F GAMING WIFI II] Registering RGB controller
+2664  |Info:    [Corsair Commander Core] Registering RGB controller
+2695  |Info:    [KLM] Created new Full 104 key ANSI QWERTY with 6 rows and 21 columns containing 104 keys
+2695  |Info:    [Razer Blackwidow Elite] Registering RGB controller
+2719  |Info:    [Razer Naga Trinity] Registering RGB controller
+2719  |Info:    ------------------------------------------------------
+2719  |Info:    |            Detecting libusb HID devices            |
+2719  |Info:    ------------------------------------------------------
+2967  |Info:    ------------------------------------------------------
+2967  |Info:    |              Detecting other devices               |
+2967  |Info:    ------------------------------------------------------
+2977  |Info:    ------------------------------------------------------
+2977  |Info:    |                Detection completed                 |
+2977  |Info:    ------------------------------------------------------

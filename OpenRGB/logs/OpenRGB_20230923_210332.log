@@ -1,0 +1,41 @@
+    OpenRGB v0.9
+    Commit: 11a4eac71fdeb90356b4e68249723fc97af3d110 from 2023-07-10 05:52:54 -0500
+    Launched: 20230923_210332
+====================================================================================================
+
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    |             Detecting I2C interfaces               |
+1009  |Info:    ------------------------------------------------------
+1030  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:220A Subsystem: 1043:886B
+1030  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1043:87C0
+1030  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:220A Subsystem: 1043:886B
+1030  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1030  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1043:87C0
+1031  |Info:    ------------------------------------------------------
+1031  |Info:    |               Detecting I2C devices                |
+1031  |Info:    ------------------------------------------------------
+1593  |Info:    ------------------------------------------------------
+1594  |Info:    |               Detecting I2C PCI devices            |
+1594  |Info:    ------------------------------------------------------
+1595  |Info:    ------------------------------------------------------
+1595  |Info:    |               Detecting HID devices                |
+1595  |Info:    ------------------------------------------------------
+1672  |Info:    [ASUS ROG STRIX B550-F GAMING WIFI II] Registering RGB controller
+1782  |Info:    [Corsair Commander Core] Registering RGB controller
+1812  |Info:    [KLM] Created new Full 104 key ANSI QWERTY with 6 rows and 21 columns containing 104 keys
+1812  |Info:    [Razer Blackwidow Elite] Registering RGB controller
+1836  |Info:    [Razer Naga Trinity] Registering RGB controller
+1836  |Info:    ------------------------------------------------------
+1836  |Info:    |            Detecting libusb HID devices            |
+1836  |Info:    ------------------------------------------------------
+2003  |Info:    ------------------------------------------------------
+2003  |Info:    |              Detecting other devices               |
+2003  |Info:    ------------------------------------------------------
+2010  |Info:    ------------------------------------------------------
+2010  |Info:    |                Detection completed                 |
+2010  |Info:    ------------------------------------------------------
+2010  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
