@@ -7,7 +7,7 @@ My dotfile configurations for my Linux desktop
 
 For the Hyprland config you are going to need to download the following packages:
 ```
-yay -Sy hyprland-git sddm-git kitty bluez bluez-utils blueman noto-fonts-emoji wofi waybar-hyprland wlogout swww xdg-desktop-portal-hyprland-git network-manager-applet grim swappy polkit-gnome slurp pavucontrol pamixer swaylock-effects ttf-jetbrains-mono-nerd xfce4-settings lxappearance thunar btop pywal-git
+yay -Sy hyprland-git nvim neofetch cava sddm-git kitty bluez bluez-utils blueman noto-fonts-emoji wofi waybar-hyprland wlogout swww xdg-desktop-portal-hyprland-git network-manager-applet grim swappy polkit-gnome slurp pavucontrol pamixer swaylock-effects ttf-jetbrains-mono-nerd xfce4-settings lxappearance thunar btop pywal-git
 ```
 
 You can also run the `.config/hypr/scripts/toggle-theme-loop.sh` script that cycles all over the wallpapers in the `.wallpaper` directory and set the active wallpaper to the selected one for `x` amount of time.
